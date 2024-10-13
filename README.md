@@ -16,8 +16,6 @@ This project showcases a parallax scrolling effect, demonstrating how to create 
 
 - HTML5
 - CSS3
-- JavaScript (optional for enhanced effects)
-- [Optional: Any libraries or frameworks used, e.g., jQuery]
 
 ## Getting Started
 
