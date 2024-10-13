@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+}
+*,*::after,*::after{
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.first-image, .second-image,.third-image,.fourth-image {
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+.first-image{
+background-image: url(img/wallpaperflare.com_wallpaper\ \(4\).jpg);
+min-height:500px;
+opacity: 0.9;
+}
+.second-image{
+    background-image: url(img/wallpaperflare.com_wallpaper\ \(7\).jpg);
+    min-height:700px;
+
+}
+.third-image{
+    background-image: url(img/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    min-height:700px;
+
+}
+.fourth-image{
+    background-image: url(img/wallpaperflare.com_wallpaper\ \(5\).jpg);
+    min-height:550px;
+    opacity: 0.8;
+}
+
+section{
+    text-align: center;
+    padding: 3rem 5rem;
+
+}
+.section-light {
+    background-color: #f4f4f4;
+    color: #0f0f0f;
+}
+
+.section-dark {
+    background-color: #282e28;
+    color: #f4f4f4;
+
+}
+
+.image {
+    position: relative;
+}
+.image div {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.fourth-image div  {
+margin-top: 54px ;
+font-size: 60px;
+font-style:normal;
+}
+.last {
+    margin: 0;    
+    padding: 1.4rem;
+    }
+
+@media (max-width:600px) {
+    .last {
+margin: 0;    
+padding: 1.4rem;
+}
+
+.fourth-image div  {
+margin-top: 0;    }
+    
+}
+
+@media (max-width:1500px) {
+    .fourth-image div  {
+        margin-top: 0;    
+        /* margin-bottom: 10rem */
+            
+        }
+}
